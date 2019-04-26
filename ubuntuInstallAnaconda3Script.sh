@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 #scrpit origin https://askubuntu.com/questions/505919/how-to-install-anaconda-on-ubuntu
 # Go to home directory
 cd ~
@@ -13,6 +12,7 @@ rm Anaconda3-2019.03-Linux-x86_64.sh
 echo 'export PATH="~/anaconda/bin:$PATH"' >> ~/.bashrc 
 
 # Reload default profile
+sleep 5
 source ~/.bashrc
-
-conda update conda
+sleep 5
+# conda update conda
