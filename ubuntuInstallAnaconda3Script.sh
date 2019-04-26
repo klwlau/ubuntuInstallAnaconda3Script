@@ -12,7 +12,7 @@ rm Anaconda3-2019.03-Linux-x86_64.sh
 echo 'export PATH="~/anaconda/bin:$PATH"' >> ~/.bashrc 
 
 # Reload default profile
-sleep 5
-source ~/.bashrc
-sleep 5
+# sleep 5
+source .bashrc
+# sleep 5
 # conda update conda
