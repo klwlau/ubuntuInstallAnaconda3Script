@@ -9,4 +9,6 @@ cd ~
 wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
 bash Anaconda3-2019.03-Linux-x86_64.sh -b -p /home/ubuntu/anaconda
 rm Anaconda3-2019.03-Linux-x86_64.sh
-echo 'export PATH="/home/ubuntu/anaconda/bin:$PATH"' >> /home/ubuntu/.bashrc 
+echo 'export PATH="/home/ubuntu/anaconda/bin:$PATH"' >> /home/ubuntu/.bashrc
+
+source /home/ubuntu/.bashrc
