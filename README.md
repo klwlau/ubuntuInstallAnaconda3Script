@@ -1,4 +1,4 @@
-# A simple script to install Anaconda3 on ubuntu
+# A simple way to install Anaconda3 on ubuntu
 
 To install Anaconda3 on ubuntu, first clone the file from github by running the following on ubuntu terminal:
 
