@@ -10,8 +10,9 @@ wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
 bash Anaconda3-2019.03-Linux-x86_64.sh -b -p /home/ubuntu/anaconda
 rm Anaconda3-2019.03-Linux-x86_64.sh
 
+echo 'export PATH="/home/ubuntu/anaconda/bin:$PATH"' >> /home/ubuntu/.bashrc
 source ~/.bashrc
-# echo 'export PATH="/home/ubuntu/anaconda/bin:$PATH"' >> /home/ubuntu/.bashrc
 
-conda install joblib -y
-conda update --all -y
+/home/ubuntu/anaconda/bin/conda install joblib -y
+/home/ubuntu/anaconda/bin/conda update --all -y
+/home/ubuntu/anaconda/bin/jupyter notebook --generate-config
