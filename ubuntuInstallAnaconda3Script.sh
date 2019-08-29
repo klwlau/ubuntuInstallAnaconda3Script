@@ -6,7 +6,7 @@ cd ~
 
 # You can change what anaconda version you want at 
 # https://repo.continuum.io/archive/
-wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
 bash Anaconda3-2019.03-Linux-x86_64.sh -b -p /home/ubuntu/anaconda
 rm Anaconda3-2019.03-Linux-x86_64.sh
 
