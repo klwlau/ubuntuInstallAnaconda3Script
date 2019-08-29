@@ -2,7 +2,7 @@
 
 To install Anaconda3 on ubuntu, first clone the file from github by running the following on ubuntu terminal:
 
-`git clone https://github.com/klwlau/ubuntuInstallAnaconda3Script`
+    git clone https://github.com/klwlau/ubuntuInstallAnaconda3Script
 
 Then change the directory to 'ubuntuInstallAnaconda3Script':
 
